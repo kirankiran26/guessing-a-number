@@ -46,6 +46,7 @@ class Main {
                 Guess_num();
             }
         } else if (NumberOfAttempts >= 10) {
+            System.out.println( "The Number is "+ a);
             System.out.println("YOU HAVE REACHED MAXIMUM ATTEMPTS \n TRY AGAIN ");
             System.out.println("THE NUMBER IS " + a);
             sc.close(); // Close the Scanner to avoid resource leak
