@@ -51,7 +51,7 @@ class Main {
             sc.close(); // Close the Scanner to avoid resource leak
             System.exit(0);
         }
-        sc.close(); // Close the Scanner when no longer needed
+        sc.close(); 
     }
 
     public static void main(String[] args) {
